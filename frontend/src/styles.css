@@ -1,0 +1,114 @@
+:root {
+  font-family: Segoe UI, system-ui, sans-serif;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #f6f7f8;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.page-header,
+.toolbar,
+.actions,
+.status-actions .actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.page-header {
+  justify-content: space-between;
+}
+
+.field,
+.search-form,
+.toolbar > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  padding: 0.4rem 0.5rem;
+}
+
+textarea {
+  min-height: 5rem;
+}
+
+button {
+  padding: 0.4rem 0.75rem;
+}
+
+.hint,
+.meta,
+.field-error {
+  margin: 0.15rem 0 0;
+  font-size: 0.9rem;
+}
+
+.hint,
+.meta {
+  color: #555;
+}
+
+.field-error {
+  color: #8a1f11;
+}
+
+.banner {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.banner-error {
+  background: #fdecea;
+}
+
+.banner-lifecycle {
+  background: #fff4d6;
+}
+
+.ticket-list,
+.comments {
+  list-style: none;
+  padding: 0;
+}
+
+.ticket-link {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ticket-meta {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.25rem 1rem;
+}
